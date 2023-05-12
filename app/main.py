@@ -24,7 +24,7 @@ class PredictionOut(BaseModel):
 
 @app.get("/")
 def home():
-    return {"homepage_status": "OK",
+    return {"server_status": "OK",
             "model_version": model_version}
 
 
